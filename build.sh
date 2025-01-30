@@ -9,4 +9,4 @@ if [ ! -d "$project_dir/self_racing" ]; then
 fi
 
 # Build the Docker image
-docker build -t self_racing_image "$project_dir"
+docker build -t self_racing_image "$project_dir/self_racing"
