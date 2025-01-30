@@ -8,5 +8,5 @@ if [ ! -d "$project_dir/self_racing" ]; then
     git clone https://github.com/davidandko/self_racing.git "$project_dir/self_racing"
 fi
 
-# Build the Docker image
+# Build the Docker image from the self_racing directory (which contains the Dockerfile)
 docker build -t self_racing_image "$project_dir/self_racing"
